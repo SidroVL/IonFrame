@@ -1,3 +1,4 @@
+import { SubirPage } from './../pages/subir/subir';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -11,7 +12,8 @@ import { CargarArchivoProvider } from '../providers/cargar-archivo/cargar-archiv
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    SubirPage
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { CargarArchivoProvider } from '../providers/cargar-archivo/cargar-archiv
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    SubirPage
   ],
   providers: [
     StatusBar,
